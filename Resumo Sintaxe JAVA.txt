@@ -1,0 +1,39 @@
+Resumo Sintaxe JAVA:
+
+Github do Curso:  https://glysns.gitbook.io/java-basico
+
+Nomenclatura:
+
+* Regras da linguagem para variáveis:
+	* Conter apenas: letras, _, $ ou os números de 0 a 9;
+	* Deve iniciar por uma letra, _, ou $ e jamais números;
+	* Não pode conter espaços;
+	* Não podemos usar palavras-chave da linguagem;
+	* O nome deve ser único dentro de um escopo.
+
+Convenções:
+	* Arquivo .java: Escrita em camelCase.
+	* Nome da classe no arquivo: A classe deve possuir o mesmo nome do arquivo.
+	* Nome de variável: iniciar com minúscula e depois em camelCase.
+	* Contantes (final): Escrita em maiúscula e separado entre palavras por _. 
+		Ex.: ESTADOS_BRASILEIROS
+	* Pacotes:
+		Tipo da empresa:		
+			com
+			org
+			open
+		Nome do pacote:
+			com.hypertech.notification.service
+		Em um pacote de pessoa física:
+			edu.lucas.segundasemana
+
+
+Declaração:
+
+* Variáveis:
+	* Tipo da variável + nome bem definido + incialização opcional
+
+* Método:
+	* Tipo de retorno + Nome Objetivo no Inifintivo + Parâmetros entre parenteses
+		Ex.:  String formatarCep (long cep)
+
