@@ -199,6 +199,12 @@ Argumentos:
 			"argumentoDois"
 		]
 
+Scanner
+A classe Scanner permite que o usuário tenha uma interação mais assertiva
+com o nosso programa.
 
 
+https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe
+
+dio-trilha-java-basico
 
