@@ -1,4 +1,4 @@
-package edu.ethelberto;
+package edu.ethelberto.projetocontaterminal;
 import java.util.Locale;
 import java.util.Scanner;
 /**
