@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "edu.ethelberto.AboutMe",
+            "projectName": "sintaxe-java_facb4975",
+            "args": [
+                "Ethelberto",
+                "Mello",
+                "58",
+                "1.81"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "UsuarioTv",
+            "request": "launch",
+            "mainClass": "edu.ethelberto.UsuarioTv",
+            "projectName": "sintaxe-java_facb4975"
+        },
+        {
+            "type": "java",
+            "name": "BoletimEstudantil",
+            "request": "launch",
+            "mainClass": "edu.ethelberto.anatomiaclasses.BoletimEstudantil",
+            "projectName": "sintaxe-java_facb4975"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "edu.ethelberto.anatomiaclasses.MinhaClasse",
+            "projectName": "sintaxe-java_facb4975"
+        },
+        {
+            "type": "java",
+            "name": "TesteOperadores",
+            "request": "launch",
+            "mainClass": "edu.ethelberto.operadoresjava.TesteOperadores",
+            "projectName": "sintaxe-java_facb4975"
+        }
+    ]
+}

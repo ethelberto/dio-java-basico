@@ -37,3 +37,168 @@ Declaração:
 	* Tipo de retorno + Nome Objetivo no Inifintivo + Parâmetros entre parenteses
 		Ex.:  String formatarCep (long cep)
 
+Java Beans:
+
+Sugestão, através de convenções, formas de escrita universal para nossas classes,
+atributos, métodos e pacotes.
+
+
+Tipos de Variáveis:
+
+- Tipos primitivos:
+byte	1 byte		-128		a	127
+short	2 bytes		-32.768		a	32.767
+ing	4 bytes		-2.147.483.648	a	2.147.483.647
+long	8 bytes		-9 quintilhões	a	9 quintilhões (19 dígitos)
+float 	4 bytes		-3,4028 E+38
+double	8 bytes		1,79 E+308
+boolean
+char
+
+byte idade = 123;
+short ano = 2021;
+int cep = 21070333;
+long cpf = 98765432109L;
+float pi = 3.14F;
+double salario = 1275.33;
+
+int armazena um short, porém um short não armazena um int.
+
+O int pode ser transformado para short através do cast (short).
+
+Operadores Ternário:
+
+  Forma resumida de condições.
+
+  <Expressão Condicional> ? <Caso condição verdadeira> : <Caso condição falsa>
+
+  if (a==b)
+	resultado = "verdadeiro";
+  else
+	resultado = "falso";
+
+  System.out.println(resultado);
+
+  // Com operador ternário:
+     String resultado = a==b ? "verdadeiro" : "falso";
+     System.out.println(resultado);
+
+Operadores relacionais:
+
+	Avaliam a relação entre duas variáveis ou expressões.
+
+	==
+	!=
+	>	
+	>=
+	<
+	<=
+
+Operadore Lógicos:
+
+	&& Operador Lógico "E"
+	|| Operador Lógico "OU"
+
+
+MÉTODOS:
+========
+
+Critérios de Nomeação:
+  Não obrigatório, porém é um padrão seguido pela comunidade Java.
+	* Nomeado com Verbo,
+	* Seguir padrão CamelCase.
+
+public class MyClass {
+	public double somar (int num1, int num2) {
+		// Lógica do método...
+		return ...;
+	}
+
+ESCOPO:
+=======
+
+	O ambiente onde uma variável pode ser acessada.
+	Uma varíavel é criada no primeiro acesso à ela.
+
+Escopo de classe
+Escopo de método
+Escopo de fluxo
+
+public class Conta {
+	// variavel da classe conta
+	double saldo = 10.0;
+
+	public void sacar(Double valor) {
+		// variavel local de método
+		double novoSaldo = saldo - valor;
+	}
+
+	public void imprimirSaldo() {
+		// disponível em toda classe
+		System.out.println(saldo);
+		//somente o método sacar conhece esta variável
+		System.out.println(novoSaldo); // Não funciona
+	}
+
+Palavras Reservadas:
+====================
+
+A linguagem Java possui 52 palavras reservadas.
+
+* Controles de pacotes:
+	import, package
+* Modificadores de acesso:
+	public, private, protected
+* Tipos Primitivos:
+	boolean, byte, char, double, float, int, long, short, void
+* Modificadores de Classes:
+	class, extends, abstract, final, implements, interface, native, new, static, strictfp, synchronized, transient, volatile
+* Controle de fluxo:
+	break, case, continue
+
+Documentação:
+=============
+
+   Documentações da linguagem Java:
+	docs.oracle.com/javase/7/docs/api/java/lang/String.html
+
+	Para criar Javadoc da classe:
+	//*
+	* @author Ethelberto
+	* @version 1.0
+	* @since  07/05/2024
+	*/
+
+   Criando uma documentação no formato html para disponibilizar via web.
+
+	// No terminal executar:
+
+	javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/edu/ethelberto/*.java
+
+	
+Terminal e Arqumentos:
+======================
+
+Executar um programa java fora da IDE.
+
+Na pasta bin ficarão as classes Java.
+
+1. Abra o MS-DOS ou o Power Shell
+2. localize o diretório do seu projeto
+3. na pasta bin digite o comando java NomeDaClasse
+
+Argumentos:
+	java MinhaClasse argumentoUm argumentodDois
+
+	para executar na IDE com argumento:
+	  No menu RUN 
+		Add Configurações
+		no json da classe incluir
+		"args": [
+			"argumentoUm",
+			"argumentoDois"
+		]
+
+
+
+
