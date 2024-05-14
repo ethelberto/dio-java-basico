@@ -2,6 +2,8 @@ Resumo Sintaxe JAVA:
 
 Github do Curso:  https://glysns.gitbook.io/java-basico
 
+
+
 Nomenclatura:
 
 * Regras da linguagem para variáveis:
@@ -207,4 +209,8 @@ com o nosso programa.
 https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe
 
 dio-trilha-java-basico
+
+
+Controle de Fluxo exceções:
+https://github.com/digitalinnovationone/trilha-java-basico/blob/main/gitbook/controle-de-fluxo/estruturas-excepcionais.md
 
